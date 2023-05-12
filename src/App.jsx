@@ -57,7 +57,7 @@ export default function App() {
         {todos.length === 0 && "Empty List"}
         {todos.map(todo => {
           return (
-            <li key={todo.id}>
+            <li style={{ marginTop: '10px' }} key={todo.id}>
               <label>
                 <input
                   type="checkbox"
@@ -66,7 +66,8 @@ export default function App() {
                 />
                 {todo.title}
               </label>
-              <button onClick={() => deleteTodo(todo.id)}
+
+              <button style={{ marginLeft: '10px' }} onClick={() => deleteTodo(todo.id)}
                 className="btn btn-danger">Delete</button>
             </li>
           )
