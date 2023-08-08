@@ -76,7 +76,7 @@ body {
 }
 
 .list li:has(input:checked) label {
-  color: hsl(200, 20%, 40%);
+  color: hsl(199, 23%, 31%);
 }
 
 .list {
@@ -99,7 +99,7 @@ body {
 }
 
 .list li:has(input:focus-visible) label {
-  outline: 1px solid hsl(200, 100%, 50%);
+  outline: 1px solid hsl(200, 90%, 50%);
 }
 
 .list li input {
