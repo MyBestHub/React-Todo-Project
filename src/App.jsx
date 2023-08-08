@@ -1,6 +1,6 @@
 import { useState } from "react"
 import "./index.css"
-
+//Importing from the cxx file example
 export default function App() {
   const [newItem, setNewItem] = useState("")
   const [todos, setTodos] = useState([])
