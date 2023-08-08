@@ -124,17 +124,17 @@ body {
 }
 
 .list li label:hover::before {
-  background: hsl(200, 100%, 80%);
+  background: hsl(200, 200%, 82%);
 }
 
 .list li:has(input:checked) label::before {
   content: "✔";
-  background: hsl(200, 100%, 40%);
-  color: hsl(200, 100%, 90%);
+  background: hsl(200, 100%, 42%);
+  color: hsl(200, 100%, 85%);
   font-size: 0.75rem;
   font-weight: bold;
 }
 
 .list li:has(input:checked) label:hover::before {
-  background: hsl(200, 100%, 30%);
+  background: hsl(200, 100%, 31%);
 }
