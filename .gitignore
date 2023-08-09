@@ -1,4 +1,5 @@
 # Logs
+#Gits will ignore whats inside the file
 logs
 *.log
 npm-debug.log*
